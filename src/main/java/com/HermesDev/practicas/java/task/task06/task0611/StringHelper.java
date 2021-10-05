@@ -1,0 +1,28 @@
+package com.HermesDev.practicas.java.task.task06.task0611;
+
+/* 
+StringHelper class
+
+*/
+
+public class StringHelper {
+    public static String multiply(String s) {
+        String result = "";
+        for (int i = 0; i < 5; i++){
+            result = result.concat(s);
+        }
+        return result;
+    }
+
+    public static String multiply(String s, int count) {
+        String result = "";
+        for (int i = 0; i < count; i++){
+            result = result.concat(s);
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+    }
+}
